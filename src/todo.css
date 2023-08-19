@@ -1,0 +1,66 @@
+
+/* CSS For Backgroud Big Images with Animation  */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #222;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  font-size: 100%;
+}
+
+/* CSS For Main Box Movemnet On Mouse Class Name is "card"  */
+
+.card {
+  background: rgba( 0, 0, 0, 0.30 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11.5px );
+  -webkit-backdrop-filter: blur( 11.5px );
+  border-radius: 100px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 410;
+  margin: em;
+  overflow: hidden;
+}
+
+/* CSS For Submit Button   */
+
+button {
+  margin: 0.5em;
+  border-radius: 5%;
+  border: none;
+  height: 35px;
+  width: 200px;
+  outline: none;
+  background: rgba( 255, 255, 255, 0.25 );
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+
+
+h4 {
+  display: flex;
+  justify-content: right;
+  align-items: left;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 12px
+}
+
+
+/* CSS For Tilt radius On Mouse Over Showing Border   */
+
+.js-tilt-glare {
+  border-radius: 50px;
+}
