@@ -31,7 +31,7 @@ btn.addEventListener("click",()=>{
   .then((userCredential) => {
     // Signed in
     const user = userCredential.user;
-    window.location.href="./todo.html"
+    window.location.href="./blog.html"
     // ...
   })
   .catch((error) => {
